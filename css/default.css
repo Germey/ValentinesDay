@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #ffe;
+    background: #fdc9d1;
     font-size: 12px;
     overflow: auto
 }
@@ -114,10 +114,4 @@ body {
 
 #copyright a {
     color: #666
-}
-
-@media (max-width: 600px) {
-  .facet_sidebar {
-    display: none;
-  }
 }
