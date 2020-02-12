@@ -80,7 +80,8 @@
 	var offsetX = $("#loveHeart").width() / 2;
 	var offsetY = $("#loveHeart").height() / 2 - 55;
 	var together = new Date();
-	together.setFullYear(2018, 11, 5);
+	// 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
+	together.setFullYear(2018, 10, 5);
 	together.setHours(15);
 	together.setMinutes(0);
 	together.setSeconds(0);
